@@ -8,7 +8,6 @@ import (
 )
 
 type server struct {
-	greetpb.UnimplementedGreetServiceServer
 }
 
 func GetNewGreetServer() *server {
