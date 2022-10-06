@@ -70,3 +70,7 @@ tasks:
 
   run-app:
     docker run -p 50059:50059 hiteshpattanayak/greet_app:latest
+
+  run:client:
+    cmds:
+      - go run internal/app/client/client.go
